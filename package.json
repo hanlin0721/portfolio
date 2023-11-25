@@ -1,0 +1,49 @@
+{
+  "name": "next-ts-chakra-i18n-seo-eslint-r3f-starter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/next-js": "^2.1.5",
+    "@chakra-ui/react": "^2.8.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@react-three/drei": "^9.80.2",
+    "@react-three/fiber": "^8.13.6",
+    "@theatre/core": "^0.5.1",
+    "@theatre/r3f": "^0.5.1",
+    "@theatre/studio": "^0.5.1",
+    "@types/node": "20.4.10",
+    "@types/react": "18.2.20",
+    "@types/react-dom": "18.2.7",
+    "eslint": "8.47.0",
+    "eslint-config-next": "13.4.13",
+    "framer-motion": "^10.15.1",
+    "i18next": "^23.4.4",
+    "leva": "^0.9.35",
+    "next": "13.4.13",
+    "next-i18next": "^14.0.0",
+    "next-seo": "^6.1.0",
+    "r3f-perf": "^7.1.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-i18next": "^13.1.2",
+    "react-lottie": "^1.2.3",
+    "three": "^0.155.0",
+    "typescript": "5.1.6"
+  },
+  "devDependencies": {
+    "@types/react-lottie": "^1.2.6",
+    "@types/three": "^0.155.0"
+  },
+  "overrides": {
+    "react-lottie": {
+      "react": "^0.14.7 || ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0"
+    }
+  }
+}
